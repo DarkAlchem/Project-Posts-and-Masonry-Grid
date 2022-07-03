@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #525352;
+      }
+    </style>
+  </defs>
+  <g id="Youtube">
+    <path class="cls-1" d="M26.11,20l-10.2,6V14Zm9.53,5.55V14.43s0-5.37-5.37-5.37H9.85s-5.37,0-5.37,5.37V25.57s0,5.37,5.37,5.37H30.27s5.37,0,5.37-5.37"/>
+  </g>
+</svg>

@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root {
+    --ip-blue: #003943;
+    --ip-lblue: #008593;
+    --ip-orange: #f07249;
+    --border-radi: 10px;
+}
+
+.ip_container h1,
+.ip_container h2,
+.ip_container h3,
+.ip_container h4,
+.ip_container p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.2em;
+}
+
+.ip_container,
+.ip_containerB {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.ip_row {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.ip_landing {
+    height: 380px;
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.ip_landing img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: var(--border-radi);
+    height: 100%;
+    width: 100%;
+}
+
+.ip_landing .textholder {
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    padding: 20px 30px;
+}
+
+.textholder h4 {
+
+    font-weight: 700;
+    text-align: right;
+}
+
+.ip_sidebar,
+.ip_article {
+    width: 100%;
+    float: left;
+}
+
+.ip_sidebar .ip_stats,
+.ip_sidebar .ip_contact {
+    border-radius: var(--border-radi);
+    background-color: var(--ip-blue);
+    box-sizing: border-box;
+    padding: 30px 15px;
+}
+
+.ip_stats {
+    margin-bottom: 20px;
+}
+
+.ip_stats img {
+    max-height: 90px;
+    max-width: 100%;
+    margin-bottom: 25px;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ip_stats h4 {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.ip_stats h4 span {
+    font-weight: 700;
+}
+
+.ip_stats .ip_bar {
+    width: 100%;
+    height: 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+}
+
+.ip_social-media {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 20px
+}
+
+.ip_social-media h4 {
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    color: var(--ip-lblue);
+    font-weight: 700;
+}
+
+.ip_social-media ul {
+    width: 100%;
+    padding: 0px;
+    column-gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ip_social-media li {
+    list-style: none;
+    display: inline-block;
+    /* margin-right: 10px; */
+}
+
+.ip_social-media li img {
+    height: 26px
+}
+
+.ip_project-ad {
+    border: 1px solid #bbb;
+    border-radius: var(--border-radi);
+    padding-bottom: 20px;
+}
+
+.ip_project-ad img {
+    border-top-left-radius: var(--border-radi);
+    border-top-right-radius: var(--border-radi);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ip_project-ad h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.ip_project-ad h4.ip_link {
+    word-wrap: break-word;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--ip-lblue);
+}
+
+.ip_contact {
+    margin-top: 20px;
+    margin-bottom: 40px
+}
+
+.ip_contact .ip_header {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.ip_contact .ip_name {
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+}
+
+.ip_contact .ip_title {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.ip_contact .ip_email {
+    text-align: center;
+    word-wrap: break-word;
+    font-weight: 600;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--ip-orange);
+    text-decoration: underline;
+}
+
+.ip_article .ip_posttitle {
+    float: left;
+    width: 100%;
+}
+
+.ip_posttitle h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.ip_article .ip_info {
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.ip_info h4 {
+    position: relative;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: var(--ip-lblue);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ip_info h4 img {
+    margin-right: 4px;
+    height: 12px;
+}
+
+.ip_article .ip_desc {
+    width: 100%;
+    float: left;
+}
+
+.ip_desc .tagline {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.ip_desc p {
+    font-size: 14px;
+    letter-spacing: .013em;
+    line-height: 1.8em;
+    text-align: left;
+    margin-left: auto;
+    padding-bottom: 20px;
+    margin-right: auto;
+    width: 95%;
+}
+
+.project-head {
+    padding-top: 60px;
+}
+
+.project-head h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.project-queue {
+    align-items: center;
+    column-gap: 28px;
+    column-count: 1;
+    padding-bottom: 40px;
+    justify-content: center;
+    box-sizing: unset;
+}
+
+.project_masonry {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    column-count: 1;
+    column-gap: 0px;
+    width: 100%;
+    -webkit-transition: opacity .8s, transform .8s cubic-bezier(0.25, 1, 0.5, 1);
+    transition: opacity .8s, transform .8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.ip_project-cont {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ip_project-cont .ip_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    display: block;
+}
+
+.ip_project-cont h4 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 8px;
+}
+
+.ip_project-cont .bar {
+    width: 100%;
+    height: 1px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    background-color: #bbb;
+}
+
+.ip_project-cont p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    color: #444;
+}
+
+.ip_project-cont p img {
+    height: 9px;
+}
+
+a {
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.ip_project-cont.item {
+    flex-direction: column;
+    margin-right: 1.5rem;
+    color: white;
+    position: relative;
+    width: calc(33.3% - 1.5rem);
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.ip_project-cont.disable {
+    display: none;
+}
+
+.ip_project {
+    position: relative;
+    overflow: hidden;
+}
+
+.project_masonry .ip_project {
+    background-color: rgba(0, 57, 61, 1);
+}
+
+.ip_project .ip_image {
+    height: 210px;
+    width: 100%;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: var(--border-radi);
+}
+
+.ip_project .bgholder {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: transform 2s;
+}
+
+.ip_project .bgholder img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+.ip_project .bgholder img._lazy {
+    opacity: 0;
+}
+
+.ip_project .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 57, 61, 0.4);
+    -webkit-transition: background 1.3s;
+    transition: background 1.3s;
+}
+
+.ip_project:hover .bgholder {
+    transform-origin: (50% 50%);
+    transform: scale(1.05);
+}
+
+.ip_project .textholder {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-height: 160px;
+    display: flex;
+    align-items: center;
+    -webkit-transition: transform 1s;
+    transition: transform 1s;
+}
+
+.ip_project .textholder div {
+    padding: 70px 30px 70px;
+    position: relative;
+}
+
+.ip_project .textholder h4 {
+    color: #fff;
+    font-size: 34px;
+    max-width: 80%;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.ip_project .textholder p {
+    color: #fff;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.project_masonry._extend {
+    transform: translateY(80px);
+    opacity: 0;
+}
+
+.project_masonry._extend .overlay {
+    background-color: rgba(0, 57, 61, 1);
+}
+
+.project_masonry._extend .textholder {
+    transform: translateY(20px);
+}
+
+.bg-blue {
+    background-color: var(--ip-blue);
+}
+
+.search_fields {
+    display: flex;
+    column-gap: 10px;
+    column-count: 4;
+    padding: 15px;
+
+}
+
+.search_fields select,
+#searchform .inlineSearch {
+    margin: 0px;
+    width: 100%;
+    border: 0px solid #bbbbbb;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff
+}
+
+#searchform {
+    width: 100%;
+}
+
+.img-with-aniamtion-wrap .hover-wrap .hover-wrap-inner img.img-with-animation.skip-lazy {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (min-width:520px) {
+    .ip_container {
+        width: 100%;
+    }
+
+    .ip_landing {
+        height: 490px;
+        width: 100%;
+    }
+
+    .ip_sidebar {
+        width: 40%;
+        float: left;
+    }
+
+    .ip_article {
+        width: 60%;
+        float: left;
+    }
+
+    .ip_stats img {
+        display: inline-block;
+    }
+
+    .ip_social-media ul {
+        column-gap: 10px;
+        display: block;
+    }
+
+    .project_masonry .ip_project-cont {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: calc(50% - 5px);
+    }
+
+    .project-queue {
+        flex-direction: column;
+    }
+
+    .project_masonry {
+        /* column-count: 2; */
+        /* column-gap: 2rem; */
+    }
+
+    .ip_posttitle h1,
+    .ip_desc .tagline,
+    .ip_desc p,
+    .ip_stats h4,
+    .ip_social-media h4,
+    .project-head h2,
+    .ip_project-cont h4 {
+        margin-left: unset;
+        margin-right: unset;
+        text-align: left;
+    }
+}
+
+@media (min-width:768px) {
+    .ip_landing {
+        height: 609px;
+        width: 100%;
+    }
+
+    .ip_sidebar {
+        width: 30%;
+    }
+
+    .ip_article {
+        width: 70%;
+    }
+
+    .project_masonry .ip_project-cont {
+        width: calc(33% - 3.33px);
+    }
+
+    .project_masonry {
+        /* column-count: 3; */
+    }
+
+    .project-queue {
+        column-count: 3;
+    }
+
+    .ip_info h4 {
+        width: auto;
+        margin-right: 30px;
+        float: left;
+    }
+}
